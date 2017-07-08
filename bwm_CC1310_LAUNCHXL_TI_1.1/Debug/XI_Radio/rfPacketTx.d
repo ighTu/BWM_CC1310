@@ -191,11 +191,11 @@ XI_Radio/rfPacketTx.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/inclu
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/rf_prop_cmd.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PIN.h
 XI_Radio/rfPacketTx.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
-XI_Radio/rfPacketTx.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
+XI_Radio/rfPacketTx.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/Power.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/utils/List.h
 XI_Radio/rfPacketTx.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
-XI_Radio/rfPacketTx.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
+XI_Radio/rfPacketTx.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/ioc.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_types.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_chip_def.h
@@ -210,7 +210,7 @@ XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxwa
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/rom.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/gpio.h
 XI_Radio/rfPacketTx.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_gpio.h
-XI_Radio/rfPacketTx.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
+XI_Radio/rfPacketTx.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
 
 ../XI_Radio/rfPacketTx.c: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h: 
@@ -403,11 +403,11 @@ C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h:
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/rf_prop_cmd.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PIN.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/Power.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/utils/List.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/ioc.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_types.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_chip_def.h: 
@@ -422,4 +422,4 @@ C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_c
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/rom.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/gpio.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/inc/hw_gpio.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 

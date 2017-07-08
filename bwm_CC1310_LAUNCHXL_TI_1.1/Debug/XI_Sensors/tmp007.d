@@ -246,9 +246,9 @@ XI_Sensors/tmp007.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_
 XI_Sensors/tmp007.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h
 XI_Sensors/tmp007.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
 XI_Sensors/tmp007.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h
-XI_Sensors/tmp007.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
-XI_Sensors/tmp007.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
-XI_Sensors/tmp007.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
+XI_Sensors/tmp007.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
+XI_Sensors/tmp007.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
+XI_Sensors/tmp007.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
 XI_Sensors/tmp007.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h
 XI_Sensors/tmp007.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h
 XI_Sensors/tmp007.obj: ../XI_Sensors/../XI_Sensors/../XI_Bios/bios_CC1310.h
@@ -507,9 +507,9 @@ C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ti/sysbi
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h: 
 ../XI_Sensors/../XI_Sensors/../XI_Bios/bios_CC1310.h: 

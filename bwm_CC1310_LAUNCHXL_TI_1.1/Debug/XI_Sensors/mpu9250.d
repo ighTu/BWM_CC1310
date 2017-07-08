@@ -1,8 +1,8 @@
 # FIXED
 
 XI_Sensors/mpu9250.obj: ../XI_Sensors/mpu9250.c
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/sensors.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/sensors.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios.h
 XI_Sensors/mpu9250.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdarg.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
@@ -246,24 +246,24 @@ XI_Sensors/mpu9250.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46
 XI_Sensors/mpu9250.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
 XI_Sensors/mpu9250.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios_CC1310.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/nokia_5110_lcd.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios_CC1310.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/nokia_5110_lcd.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/math.h
 XI_Sensors/mpu9250.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/_defs.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bh1750.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bme280.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bmp280.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/tmp007.h
-XI_Sensors/mpu9250.obj: C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/mpu9250.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bh1750.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bme280.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bmp280.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/tmp007.h
+XI_Sensors/mpu9250.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/mpu9250.h
 
 ../XI_Sensors/mpu9250.c: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/sensors.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/sensors.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdarg.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
@@ -507,17 +507,17 @@ C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ti/sysbi
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios_CC1310.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/nokia_5110_lcd.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/bios_CC1310.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Bios/nokia_5110_lcd.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/math.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/_defs.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bh1750.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bme280.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bmp280.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/tmp007.h: 
-C:/Workspace/CCS_6.2.0_MY/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/mpu9250.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bh1750.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bme280.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/bmp280.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/tmp007.h: 
+C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Sensors/../XI_Sensors/mpu9250.h: 
