@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.12.0                    
 ******************************************************************************
->> Linked Sun Jul  9 22:26:28 2017
+>> Linked Sun Jul  9 22:32:09 2017
 
 OUTPUT FILE NAME:   <bwm_CC1310_LAUNCHXL_TI_1.1.out>
 ENTRY POINT SYMBOL: "ResetISR"  address: 0000659d
