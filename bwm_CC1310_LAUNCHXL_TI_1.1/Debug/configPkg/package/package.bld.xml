@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/uartecho_pem3.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"/>
+        <srcFile name="C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/uartecho_pem3.cfg"
         xCfgPrefix="package/cfg/uartecho_pem3"
-        cfgScript="C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"
+        cfgScript="C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/uartecho_pem3.cfg"
         xCfgPrefix="package/cfg/uartecho_pem3"
-        cfgScript="C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"
+        cfgScript="C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/uartecho.cfg"
         cfgArgs="null"
         />
     </executables>

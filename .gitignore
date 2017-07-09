@@ -42,4 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# ignore poject folders
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
+
 # End of https://www.gitignore.io/api/osx,jekyll,codekit
