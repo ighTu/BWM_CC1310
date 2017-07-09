@@ -43,7 +43,7 @@ Temporary Items
 .apdisk
 
 # ignore poject folders
-tmp/bwm_CC1310_LAUNCHXL_TI_1.1/Debug
+tmp/**/*
 
 
 # End of https://www.gitignore.io/api/osx,jekyll,codekit
