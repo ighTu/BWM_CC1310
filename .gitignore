@@ -5,6 +5,7 @@
 # General CodeKit files to ignore
 config.codekit
 /min
+tmp/**/*
 
 ### CodeKit Patch ###
 */codekit-config.json
@@ -41,9 +42,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# ignore poject folders
-tmp/**/*
-
 
 # End of https://www.gitignore.io/api/osx,jekyll,codekit
