@@ -5,7 +5,7 @@
 # General CodeKit files to ignore
 config.codekit
 /min
-tmp/**/*
+bwm_CC1310_LAUNCHXL_TI_1.1/**/*
 
 ### CodeKit Patch ###
 */codekit-config.json
