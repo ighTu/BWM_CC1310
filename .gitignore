@@ -1,6 +1,6 @@
 
 #BWM IGNORE
-bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Bios/
 bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
 bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
 
@@ -8,3 +8,20 @@ bwm_CC1310_LAUNCHXL_TI_1.1/src/sysbios/
 bwm_CC1310_LAUNCHXL_TI_1.1/src/makefile.libs
 
 bwm_CC1310_LAUNCHXL_TI_1.1/.settings/
+
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Sensors/subdir_vars.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Sensors/subdir_rules.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Radio/subdir_vars.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Radio/subdir_rules.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Bios/subdir_vars.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/XI_Bios/subdir_rules.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/subdir_vars.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/subdir_rules.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/sources.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/smartrf_settings/subdir_vars.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/smartrf_settings/subdir_rules.mk
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/makefile
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/main.obj
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.out
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
