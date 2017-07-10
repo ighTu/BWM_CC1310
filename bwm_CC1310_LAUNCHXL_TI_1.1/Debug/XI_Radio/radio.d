@@ -1,8 +1,8 @@
 # FIXED
 
 XI_Radio/radio.obj: ../XI_Radio/radio.c
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/radio.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/radio.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios.h
 XI_Radio/radio.obj: C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdarg.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
@@ -246,19 +246,19 @@ XI_Radio/radio.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_
 XI_Radio/radio.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h
 XI_Radio/radio.obj: C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios_CC1310.h
-XI_Radio/radio.obj: C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/nokia_5110_lcd.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios_CC1310.h
+XI_Radio/radio.obj: C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/nokia_5110_lcd.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/math.h
 XI_Radio/radio.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/_defs.h
 
 ../XI_Radio/radio.c: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/radio.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/radio.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios.h: 
 C:/ti/xdctools_3_32_00_06_core/packages/xdc/std.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdarg.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
@@ -502,12 +502,12 @@ C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/bios_6_46_01_37/packages/ti/sysbi
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/I2C.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stddef.h: 
 C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/tidrivers_cc13xx_cc26xx_2_21_00_04/packages/ti/drivers/PWM.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Board.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/CC1310_LAUNCHXL.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/smartrf_settings/smartrf_settings.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/stdlib.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/string.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios_CC1310.h: 
-C:/Workspace/Github/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/nokia_5110_lcd.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/bios_CC1310.h: 
+C:/Workspace/GitHub/BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/XI_Radio/../XI_Bios/nokia_5110_lcd.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/math.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_16.12.0.STS/include/_defs.h: 
