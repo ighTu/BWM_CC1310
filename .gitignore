@@ -1,46 +1,10 @@
 
-# Created by https://www.gitignore.io/api/osx,jekyll,codekit
+#BWM IGNORE
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
 
-### CodeKit ###
-# General CodeKit files to ignore
-config.codekit
-/min
-.bwm_CC1310_LAUNCHXL_TI_1.1/**/*
+bwm_CC1310_LAUNCHXL_TI_1.1/src/sysbios/
+bwm_CC1310_LAUNCHXL_TI_1.1/src/makefile.libs
 
-### CodeKit Patch ###
-*/codekit-config.json
-.codekit-cache
-
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-metadata
-
-### OSX ###
-*.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# End of https://www.gitignore.io/api/osx,jekyll,codekit
+bwm_CC1310_LAUNCHXL_TI_1.1/.settings/
