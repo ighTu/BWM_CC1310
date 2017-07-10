@@ -6,7 +6,7 @@
 config.codekit
 
 ### BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Debug/*
-bwm_CC1310_LAUNCHXL_TI_1.1\Debug\*
+BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\Debug\*
 
 ### CodeKit Patch ###
 */codekit-config.json
