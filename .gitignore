@@ -45,6 +45,7 @@
 *.su
 *.idb
 *.pdb
+BWM_CC1310/bwm_CC1310_LAUNCHXL_TI_1.1/Debug/*
 
 # Kernel Module Compile Results
 *.mod*
