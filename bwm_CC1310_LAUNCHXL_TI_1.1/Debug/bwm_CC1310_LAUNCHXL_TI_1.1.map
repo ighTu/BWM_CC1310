@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.12.0                    
 ******************************************************************************
->> Linked Mon Jul 10 16:16:17 2017
+>> Linked Mon Jul 10 16:34:55 2017
 
 OUTPUT FILE NAME:   <bwm_CC1310_LAUNCHXL_TI_1.1.out>
 ENTRY POINT SYMBOL: "ResetISR"  address: 0000659d
@@ -1223,7 +1223,7 @@ MODULE SUMMARY
     +--+---------------------------------+-------+---------+---------+
        Total:                            4580    0         4      
                                                                   
-    C:\Workspace\GitHub\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\Debug\configPkg\package\cfg\
+    C:\Workspace\Github\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\Debug\configPkg\package\cfg\
        uartecho_pem3.oem3                450     1479      2858   
     +--+---------------------------------+-------+---------+---------+
        Total:                            450     1479      2858   
@@ -1270,7 +1270,7 @@ MODULE SUMMARY
     +--+---------------------------------+-------+---------+---------+
        Total:                            4       0         0      
                                                                   
-    C:\Workspace\GitHub\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\src\sysbios\rom_sysbios.aem3
+    C:\Workspace\Github\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\src\sysbios\rom_sysbios.aem3
        rom_sysbios.obj                   928     0         0      
     +--+---------------------------------+-------+---------+---------+
        Total:                            928     0         0      
