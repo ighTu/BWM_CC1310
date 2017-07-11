@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #BWM IGNORE
 bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
@@ -8,3 +9,20 @@ bwm_CC1310_LAUNCHXL_TI_1.1/src/sysbios/
 bwm_CC1310_LAUNCHXL_TI_1.1/src/makefile.libs
 
 bwm_CC1310_LAUNCHXL_TI_1.1/.settings/
+=======
+
+#BWM IGNORE
+<<<<<<< HEAD
+
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/
+# bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
+# bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
+=======
+bwm_CC1310_LAUNCHXL_TI_1.1/Debug/
+>>>>>>> 30fa2c78e72aa9aadf7bc4210dbaba4267ed8f35
+
+bwm_CC1310_LAUNCHXL_TI_1.1/src/sysbios/
+bwm_CC1310_LAUNCHXL_TI_1.1/src/makefile.libs
+
+bwm_CC1310_LAUNCHXL_TI_1.1/.settings/
+>>>>>>> origin/master
