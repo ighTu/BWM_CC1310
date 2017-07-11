@@ -1,8 +1,8 @@
 
 #BWM IGNORE
 bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
-bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
-bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
+#bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
+#bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1_linkInfo.xml
 
 bwm_CC1310_LAUNCHXL_TI_1.1/src/sysbios/
 bwm_CC1310_LAUNCHXL_TI_1.1/src/makefile.libs

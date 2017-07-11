@@ -25,6 +25,11 @@ ORDERED_OBJS += \
 "./XI_Sensors/sensors.obj" \
 "./XI_Sensors/tmp007.obj" \
 "./smartrf_settings/smartrf_settings.obj" \
+"../src/sysbios/m3_Hwi_asm.obj" \
+"../src/sysbios/m3_Hwi_asm_switch.obj" \
+"../src/sysbios/m3_IntrinsicsSupport_asm.obj" \
+"../src/sysbios/m3_TaskSupport_asm.obj" \
+"../src/sysbios/rom_sysbios.obj" \
 "../CC1310_LAUNCHXL.cmd" \
 $(GEN_CMDS__FLAG) \
 -l"C:/ti/tirtos_cc13xx_cc26xx_2_21_00_06/products/cc13xxware_2_04_03_17272/driverlib/bin/ccs/driverlib.lib" \
@@ -42,11 +47,13 @@ RMDIR := RMDIR /S/Q
 -include XI_Radio/subdir_vars.mk
 -include XI_Sensors/subdir_vars.mk
 -include smartrf_settings/subdir_vars.mk
+-include src/sysbios/subdir_vars.mk
 -include subdir_rules.mk
 -include XI_Bios/subdir_rules.mk
 -include XI_Radio/subdir_rules.mk
 -include XI_Sensors/subdir_rules.mk
 -include smartrf_settings/subdir_rules.mk
+-include src/sysbios/subdir_rules.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

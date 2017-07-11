@@ -128,4 +128,5 @@ XI_Bios \
 XI_Radio \
 XI_Sensors \
 smartrf_settings \
+src/sysbios \
 

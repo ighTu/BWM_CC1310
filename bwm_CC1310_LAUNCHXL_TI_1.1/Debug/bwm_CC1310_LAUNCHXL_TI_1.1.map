@@ -1,11 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.12.0                    
 ******************************************************************************
-<<<<<<< HEAD
->> Linked Sun Jul  9 22:47:04 2017
-=======
->> Linked Mon Jul 10 16:55:45 2017
->>>>>>> eb3dcb71226330ee09fe137b24c43ad0fc831a86
+>> Linked Mon Jul 10 18:55:02 2017
 
 OUTPUT FILE NAME:   <bwm_CC1310_LAUNCHXL_TI_1.1.out>
 ENTRY POINT SYMBOL: "ResetISR"  address: 0000659d
@@ -242,7 +238,7 @@ section   page    origin      length       input sections
                   00003f00    000000d0                             : PowerCC26XX.oem3 (.text:Power_setDependency)
                   00003fd0    000000c8                             : UARTCC26XX.oem3 (.text:UARTCC26XX_initHw)
                   00004098    000000c2                             : I2CCC26XX.oem3 (.text:I2CCC26XX_transfer)
-                  0000415a    00000002     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_BIOS_linkedWithIncorrectBootLibrary__E)
+                  0000415a    00000002     rom_sysbios.obj (.text:ti_sysbios_BIOS_linkedWithIncorrectBootLibrary__E)
                   0000415c    000000c0     driverlib.lib : setup.obj (.text:TrimAfterColdResetWakeupFromShutDown)
                   0000421c    000000b0     bme280.obj (.text:show_BME280_Press)
                   000042cc    000000ac     sensors.obj (.text:init_sensorsSemaphore)
@@ -252,7 +248,7 @@ section   page    origin      length       input sections
                   00004570    000000a0     auto_init.aem3 : auto_init.oem3 (.text)
                   00004610    0000009c     bh1750.obj (.text:get_BH1750_LightLevel)
                   000046ac    0000009c     rtsv7M3_T_le_eabi.lib : memcpy_t2.obj (.text)
-                  00004748    00000098     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
+                  00004748    00000098     rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
                   000047e0    00000094     drivers_cc13xxware.aem3 : PINCC26XX.oem3 (.text:PIN_open)
                   00004874    00000094                             : UARTCC26XX.oem3 (.text:writeFinishedDoCallback)
                   00004908    00000090                             : I2CCC26XX.oem3 (.text:I2CCC26XX_cancel)
@@ -274,10 +270,10 @@ section   page    origin      length       input sections
                   000050e0    00000074     driverlib.lib : setup_rom.obj (.text:NOROM_SetupSetVddrLevel)
                   00005154    00000074     drivers_cc13xxware.aem3 : PowerCC26XX_calibrateRCOSC.oem3 (.text:PowerCC26XX_auxISR)
                   000051c8    00000074     bh1750.obj (.text:show_BH1750_Bright)
-                  0000523c    00000074     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_start__E)
+                  0000523c    00000074     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_start__E)
                   000052b0    00000074     drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:writeTxFifoFlush)
                   00005324    00000072     bios_CC1310.obj (.text:putFloatData)
-                  00005396    00000002     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_triggerFunc__I)
+                  00005396    00000002     rom_sysbios.obj (.text:ti_sysbios_knl_Clock_triggerFunc__I)
                   00005398    00000070     drivers_cc13xxware.aem3 : GPTimerCC26XX.oem3 (.text:GPTimerCC26XX_resetHw)
                   00005408    00000070     driverlib.lib : chipinfo.obj (.text:NOROM_ChipInfo_GetHwRevision)
                   00005478    0000006e     rtsv7M3_T_le_eabi.lib : fd_tos_t2.obj (.text)
@@ -312,7 +308,7 @@ section   page    origin      length       input sections
                   00005f54    00000058     mpu9250.obj (.text:readAccelData)
                   00005fac    00000058     bme280.obj (.text:save_BME280_Press)
                   00006004    00000056     drivers_cc13xxware.aem3 : PWMTimerCC26XX.oem3 (.text:PWMTimerCC26XX_setPeriod)
-                  0000605a    00000002     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysCallback_defaultAbort)
+                  0000605a    00000002     rom_sysbios.obj (.text:xdc_runtime_SysCallback_defaultAbort)
                   0000605c    00000054     drivers_cc13xxware.aem3 : PowerCC26XX.oem3 (.text:configureXOSCHF)
                   000060b0    00000054     rtsv7M3_T_le_eabi.lib : ltoa.obj (.text)
                   00006104    00000050     driverlib.lib : setup_rom.obj (.text:NOROM_SetupSetCacheModeAccordingToCcfgSetting)
@@ -331,10 +327,10 @@ section   page    origin      length       input sections
                   000064cc    00000046                             : RingBuf.oem3 (.text:RingBuf_put)
                   00006512    00000044                             : PWMTimerCC26XX.oem3 (.text:PWMTimerCC26XX_setDuty)
                   00006556    00000044     bios_CC1310.obj (.text:__delay_ms)
-                  0000659a    00000002     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysCallback_defaultExit)
+                  0000659a    00000002     rom_sysbios.obj (.text:xdc_runtime_SysCallback_defaultExit)
                   0000659c    00000044     boot.aem3 : boot.oem3 (.text)
                   000065e0    00000044     rtsv7M3_T_le_eabi.lib : fd_tou_t2.obj (.text)
-                  00006624    00000044     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
+                  00006624    00000044     rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
                   00006668    00000040     drivers_cc13xxware.aem3 : RingBuf.oem3 (.text:RingBuf_get)
                   000066a8    00000040     bios.obj (.text:init_Hardware)
                   000066e8    0000003c     driverlib.lib : osc.obj (.text:NOROM_OSC_HPOSCRelativeFrequencyOffsetGet)
@@ -350,9 +346,9 @@ section   page    origin      length       input sections
                   00006930    00000038     drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:readData)
                   00006968    00000038     rtsv7M3_T_le_eabi.lib : fs_tod_t2.obj (.text)
                   000069a0    00000038                           : i_tofs_t2.obj (.text)
-                  000069d8    00000038     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getCurrentTick__E)
+                  000069d8    00000038     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getCurrentTick__E)
                   00006a10    00000038     drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:writeData)
-                  00006a48    00000038     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
+                  00006a48    00000038     rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
                   00006a80    00000034     drivers_cc13xxware.aem3 : GPTimerCC26XX.oem3 (.text:GPTimerCC26XXSetLoadMatch)
                   00006ab4    00000034                             : GPTimerCC26XX.oem3 (.text:GPTimerCC26XX_initHw)
                   00006ae8    00000034     driverlib.lib : osc.obj (.text:NOROM_OSCHF_SwitchToRcOscTurnOffXosc)
@@ -360,8 +356,8 @@ section   page    origin      length       input sections
                   00006b50    00000034     bios_CC1310.obj (.text:i2c_init)
                   00006b84    00000034     main.obj (.text:main)
                   00006bb8    00000034     drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:readData2RingBuf)
-                  00006bec    00000034     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_initDevice__I)
-                  00006c20    00000032                      : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_setNextTick__E)
+                  00006bec    00000034     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_initDevice__I)
+                  00006c20    00000032     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_setNextTick__E)
                   00006c52    00000030     drivers_cc13xxware.aem3 : GPTimerCC26XX.oem3 (.text:GPTimerCC26XX_close)
                   00006c82    00000002     --HOLE-- [fill = 0]
                   00006c84    00000030                             : I2C.oem3 (.text:I2C_open)
@@ -372,14 +368,14 @@ section   page    origin      length       input sections
                   00006d74    00000030     drivers_cc13xxware.aem3 : UART.oem3 (.text:UART_open)
                   00006da4    00000030     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_atExitFunc__I)
                   00006dd4    00000030     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_startFunc__I)
-                  00006e04    00000030     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_setThreshold__I)
-                  00006e34    00000030                      : rom_sysbios.obj (.text:xdc_runtime_SysMin_abort__E)
+                  00006e04    00000030     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_setThreshold__I)
+                  00006e34    00000030     rom_sysbios.obj (.text:xdc_runtime_SysMin_abort__E)
                   00006e64    0000002c     driverlib.lib : ddi.obj (.text:NOROM_DDI32RegWrite)
                   00006e90    0000002c                   : osc.obj (.text:NOROM_OSCClockSourceGet)
                   00006ebc    0000002c                   : setup_rom.obj (.text:NOROM_SetupGetTrimForRadcExtCfg)
                   00006ee8    0000002c     drivers_cc13xxware.aem3 : PINCC26XX.oem3 (.text:PINCC26XX_setMux)
                   00006f14    0000002c                             : PWMTimerCC26XX.oem3 (.text:PWMTimerCC26XX_close)
-                  00006f40    0000002c     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_getTicksUntilInterrupt__E)
+                  00006f40    0000002c     rom_sysbios.obj (.text:ti_sysbios_knl_Clock_getTicksUntilInterrupt__E)
                   00006f6c    00000028     drivers_cc13xxware.aem3 : GPTimerCC26XX.oem3 (.text:GPTimerCC26XX_configureDebugStall)
                   00006f94    00000028     driverlib.lib : aon_batmon.obj (.text:NOROM_AONBatMonTemperatureGetDegC)
                   00006fbc    00000028     drivers_cc13xxware.aem3 : PowerCC26XX.oem3 (.text:Power_registerNotify)
@@ -392,7 +388,7 @@ section   page    origin      length       input sections
                   000070a0    00000024     mpu9250.obj (.text:readTempData)
                   000070c4    00000024     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_registerRTSLock__I)
                   000070e8    00000024     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_removeRTSLock__I)
-                  0000710c    00000024     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getMaxTicks__E)
+                  0000710c    00000024     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getMaxTicks__E)
                   00007130    00000022     uartecho_pem3.oem3 (.text:xdc_runtime_SysMin_output__I)
                   00007152    00000002     --HOLE-- [fill = 0]
                   00007154    00000020     driverlib.lib : setup_rom.obj (.text:NOROM_SetupGetTrimForXoscHfCtl)
@@ -400,16 +396,16 @@ section   page    origin      length       input sections
                   00007194    00000020                             : PowerCC26XX.oem3 (.text:Power_unregisterNotify)
                   000071b4    00000020     rtsv7M3_T_le_eabi.lib : u_tofd_t2.obj (.text)
                   000071d4    00000020     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_rtsLock__I)
-                  000071f4    00000020     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_dynamicStub__E)
-                  00007214    00000020                      : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_stop__E)
-                  00007234    00000020                      : rom_sysbios.obj (.text:xdc_runtime_SysMin_Module_startup__E)
+                  000071f4    00000020     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_dynamicStub__E)
+                  00007214    00000020     rom_sysbios.obj (.text:ti_sysbios_knl_Clock_stop__E)
+                  00007234    00000020     rom_sysbios.obj (.text:xdc_runtime_SysMin_Module_startup__E)
                   00007254    0000001e     drivers_cc13xxware.aem3 : PINCC26XX.oem3 (.text:PIN_close)
                   00007272    0000001e                             : PowerCC26XX.oem3 (.text:Power_getTransitionLatency)
                   00007290    0000001c     driverlib.lib : setup_rom.obj (.text:NOROM_SetupGetTrimForAmpcompTh2)
                   000072ac    0000001c                   : setup_rom.obj (.text:NOROM_SetupGetTrimForRcOscLfRtuneCtuneTrim)
                   000072c8    0000001c     drivers_cc13xxware.aem3 : PINCC26XX.oem3 (.text:PINCC26XX_setIoCfgMux)
                   000072e4    0000001c                             : PINCC26XX.oem3 (.text:PIN_hwi)
-                  00007300    0000001c     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysMin_exit__E)
+                  00007300    0000001c     rom_sysbios.obj (.text:xdc_runtime_SysMin_exit__E)
                   0000731c    0000001a     drivers_cc13xxware.aem3 : List.oem3 (.text:List_remove)
                   00007336    0000001a                             : PWMTimerCC26XX.oem3 (.text:PWMTimerCC26XX_control)
                   00007350    0000001a     bios_CC1310.obj (.text:putdata)
@@ -430,7 +426,7 @@ section   page    origin      length       input sections
                   000074a4    00000018     rtsv7M3_T_le_eabi.lib : args_main.obj (.text)
                   000074bc    00000018                           : ll_mul_t2.obj (.text)
                   000074d4    00000018     uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_rtsUnlock__I)
-                  000074ec    00000018     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Swi_or__E)
+                  000074ec    00000018     rom_sysbios.obj (.text:ti_sysbios_knl_Swi_or__E)
                   00007504    00000018     uartecho_pem3.oem3 (.text:ti_sysbios_rom_cortexm_cc13xx_CC13xx_checkRevision__E)
                   0000751c    00000016     driverlib.lib : chipinfo.obj (.text:NOROM_ThisCodeIsBuiltForCC13xxHwRev20AndLater_HaltIfViolated)
                   00007532    00000016     rtsv7M3_T_le_eabi.lib : strcpy.obj (.text)
@@ -451,7 +447,7 @@ section   page    origin      length       input sections
                   00007654    00000010                             : UARTCC26XX.oem3 (.text:uartPostNotify)
                   00007664    0000000e     driverlib.lib : vims.obj (.text:NOROM_VIMSModeGet)
                   00007672    0000000e     rtsv7M3_T_le_eabi.lib : copy_decompress_none.obj (.text:decompress:none)
-                  00007680    0000000e     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_TimestampProvider_get32__E)
+                  00007680    0000000e     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_TimestampProvider_get32__E)
                   0000768e    0000000c     drivers_cc13xxware.aem3 : GPTimerCC26XX.oem3 (.text:GPTimerCC26XX_Params_init)
                   0000769a    0000000c     driverlib.lib : cpu.obj (.text:NOROM_CPUcpsid)
                   000076a6    0000000c                   : cpu.obj (.text:NOROM_CPUcpsie)
@@ -460,9 +456,9 @@ section   page    origin      length       input sections
                   000076c0    0000000c                             : PowerCC26XX.oem3 (.text:Power_getDependencyCount)
                   000076cc    0000000c     rtsv7M3_T_le_eabi.lib : copy_zero_init.obj (.text:decompress:ZI)
                   000076d8    0000000c     sensors.obj (.text:ti_sysbios_knl_Semaphore_handle)
-                  000076e4    0000000c     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Swi_getTrigger__E)
+                  000076e4    0000000c     rom_sysbios.obj (.text:ti_sysbios_knl_Swi_getTrigger__E)
                   000076f0    0000000c     uartecho_pem3.oem3 (.text:xdc_runtime_Startup_reset__I)
-                  000076fc    0000000c     rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_Startup_rtsDone__E)
+                  000076fc    0000000c     rom_sysbios.obj (.text:xdc_runtime_Startup_rtsDone__E)
                   00007708    0000000a     drivers_cc13xxware.aem3 : I2CCC26XX.oem3 (.text:I2CCC26XX_init)
                   00007712    0000000a                             : I2C.oem3 (.text:I2C_transfer)
                   0000771c    0000000a                             : List.oem3 (.text:List_empty)
@@ -480,8 +476,8 @@ section   page    origin      length       input sections
                   00007774    00000004     drivers_cc13xxware.aem3 : List.oem3 (.text:List_head)
                   00007778    00000004                             : List.oem3 (.text:List_next)
                   0000777c    00000004                             : PowerCC26XX.oem3 (.text:nopResourceHandler)
-                  00007780    00000004     rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getCount64__E)
-                  00007784    00000004                      : rom_sysbios.obj (.text:ti_sysbios_knl_Semaphore_getCount__E)
+                  00007780    00000004     rom_sysbios.obj (.text:ti_sysbios_family_arm_cc26xx_Timer_getCount64__E)
+                  00007784    00000004     rom_sysbios.obj (.text:ti_sysbios_knl_Semaphore_getCount__E)
                   00007788    00000008     (.tramp.xdc_runtime_Startup_startMods__I.1)
                   00007790    00000008     (.tramp.ti_sysbios_knl_Clock_logTick__E.1)
                   00007798    00000008     (.tramp.ti_sysbios_knl_Task_Params__init__S.1)
@@ -1205,6 +1201,11 @@ MODULE SUMMARY
 
        Module                            code    ro data   rw data
        ------                            ----    -------   -------
+    ..\src\sysbios\
+       rom_sysbios.obj                   928     0         0      
+    +--+---------------------------------+-------+---------+---------+
+       Total:                            928     0         0      
+                                                                  
     .\
        main.obj                          270     23        2794   
        CC1310_LAUNCHXL.obj               0       488       1100   
@@ -1227,7 +1228,7 @@ MODULE SUMMARY
     +--+---------------------------------+-------+---------+---------+
        Total:                            4580    0         4      
                                                                   
-    C:\Workspace\Github\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\Debug\configPkg\package\cfg\
+    C:\Workspace\GitHub\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\Debug\configPkg\package\cfg\
        uartecho_pem3.oem3                450     1479      2858   
     +--+---------------------------------+-------+---------+---------+
        Total:                            450     1479      2858   
@@ -1273,11 +1274,6 @@ MODULE SUMMARY
        HwiP_tirtos.oem3                  4       0         0      
     +--+---------------------------------+-------+---------+---------+
        Total:                            4       0         0      
-                                                                  
-    C:\Workspace\Github\BWM_CC1310\bwm_CC1310_LAUNCHXL_TI_1.1\src\sysbios\rom_sysbios.aem3
-       rom_sysbios.obj                   928     0         0      
-    +--+---------------------------------+-------+---------+---------+
-       Total:                            928     0         0      
                                                                   
     C:\ti\ccsv6\tools\compiler\ti-cgt-arm_16.12.0.STS\lib\rtsv7M3_T_le_eabi.lib
        trgdrv.obj                        804     0         8      
@@ -1386,11 +1382,11 @@ ti_sysbios_knl_Task_construct  $Tramp$TT$L$PI$$ti_sysbios_knl_Task_construct
 xdc_runtime_System_abort__E  $Tramp$TT$L$PI$$xdc_runtime_System_abort__E
    1001c745     000077f0     000066b8   bios.obj (.text:init_Hardware)
 xdc_runtime_Gate_leaveSystem__E  $Tramp$TT$L$PI$$xdc_runtime_Gate_leaveSystem__E
-   1001c875     000077f8     00006654   rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
-                             00006a70                    : rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
+   1001c875     000077f8     00006654   rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
+                             00006a70   rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
 xdc_runtime_Gate_enterSystem__E  $Tramp$TT$L$PI$$xdc_runtime_Gate_enterSystem__E
-   1001c881     00007800     00006626   rom_sysbios.aem3 : rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
-                             00006a52                    : rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
+   1001c881     00007800     00006626   rom_sysbios.obj (.text:xdc_runtime_SysMin_flush__E)
+                             00006a52   rom_sysbios.obj (.text:xdc_runtime_SysMin_putch__E)
 xdc_runtime_System_exit__E  $Tramp$TT$L$PI$$xdc_runtime_System_exit__E
    1001c7cd     00007808     000065c8   boot.aem3 : boot.oem3 (.text)
                              00007558   uartecho_pem3.oem3 (.text:ti_sysbios_BIOS_exitFunc__I)
@@ -1408,13 +1404,13 @@ ti_sysbios_family_arm_m3_Hwi_destruct  $Tramp$TT$L$PI$$ti_sysbios_family_arm_m3_
    1001c25d     00007828     00005020   drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:UARTCC26XX_close)
                              00005930                           : I2CCC26XX.oem3 (.text:I2CCC26XX_close)
 ti_sysbios_knl_Clock_scheduleNextTick__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Clock_scheduleNextTick__E
-   1001beb9     00007830     000047c6   rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
+   1001beb9     00007830     000047c6   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
 ti_sysbios_knl_Clock_walkQueueDynamic__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Clock_walkQueueDynamic__E
-   1001a809     00007838     0000478e   rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
-                             000047aa                    : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
+   1001a809     00007838     0000478e   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
+                             000047aa   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
 ti_sysbios_knl_Clock_TimerProxy_getCurrentTick__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Clock_TimerProxy_getCurrentTick__E
-   1001c091     00007840     0000475c   rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
-                             00006f52                    : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_getTicksUntilInterrupt__E)
+   1001c091     00007840     0000475c   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_workFuncDynamic__E)
+                             00006f52   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_getTicksUntilInterrupt__E)
 ti_sysbios_knl_Task_sleep__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Task_sleep__E
    1001a9d9     00007848     00004394   sensors.obj (.text:sensorsTaskFxn)
                              000043ea   sensors.obj (.text:sensorsTaskFxn)
@@ -1448,7 +1444,7 @@ ti_sysbios_knl_Swi_post__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Swi_post__E
                              00003c6a                           : I2CCC26XX.oem3 (.text:I2CCC26XX_hwiFxn)
                              0000414a                           : I2CCC26XX.oem3 (.text:I2CCC26XX_transfer)
                              00005ee4                           : I2CCC26XX.oem3 (.text:I2CCC26XX_swiFxn)
-                             00007500   rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Swi_or__E)
+                             00007500   rom_sysbios.obj (.text:ti_sysbios_knl_Swi_or__E)
                              000075e6   uartecho_pem3.oem3 (.text:ti_sysbios_knl_Clock_doTick__I)
 ti_sysbios_knl_Semaphore_pend__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Semaphore_pend__E
    1001a001     00007878     00003466   drivers_cc13xxware.aem3 : UARTCC26XX.oem3 (.text:UARTCC26XX_read)
@@ -1581,7 +1577,7 @@ ti_sysbios_knl_Clock_start__E  $Tramp$TT$L$PI$$ti_sysbios_knl_Clock_start__E
                              00004c90                           : PowerCC26XX.oem3 (.text:disableLFClockQualifiers)
                              0000609a                           : PowerCC26XX.oem3 (.text:configureXOSCHF)
                              0000630e                           : UARTCC26XX.oem3 (.text:startTxFifoEmptyClk)
-                             00007226   rom_sysbios.aem3 : rom_sysbios.obj (.text:ti_sysbios_knl_Clock_stop__E)
+                             00007226   rom_sysbios.obj (.text:ti_sysbios_knl_Clock_stop__E)
 xdc_runtime_System_abortSpin__E  $Tramp$TT$L$PI$$xdc_runtime_System_abortSpin__E
    1001c895     000078b0     00002b60   drivers_cc13xxware.aem3 : PowerCC26XX_calibrateRCOSC.oem3 (.text:PowerCC26XX_doCalibrate)
                              00005b1e                           : PowerCC26XX_calibrateRCOSC.oem3 (.text:PowerCC26XX_RCOSC_clockFunc)
@@ -2481,6 +2477,7 @@ UNDEFED   xdc_runtime_System_Module_GateProxy_query__E__mangled__
 00001470  xdc_runtime_System_exitFxn__C                                             
 1001c897  xdc_runtime_System_exitSpin__E                                            
 1001c7cd  xdc_runtime_System_exit__E                                                
+00006625  xdc_runtime_System_flush__E                                               
 00001474  xdc_runtime_System_maxAtexitHandlers__C                                   
 1001c6b5  xdc_runtime_System_processAtExit__E                                       
 0000148c  xdc_runtime_Text_charCnt__C                                               
@@ -2801,6 +2798,7 @@ address   name
 000065e1  __aeabi_d2uiz                                                             
 00006625  xdc_runtime_SysMin_flush__E                                               
 00006625  xdc_runtime_System_SupportProxy_flush__E                                  
+00006625  xdc_runtime_System_flush__E                                               
 00006669  RingBuf_get                                                               
 000066a9  init_Hardware                                                             
 000066e9  NOROM_OSC_HPOSCRelativeFrequencyOffsetGet                                 
@@ -3379,4 +3377,4 @@ UNDEFED   xdc_runtime_Timestamp_get32__E
 UNDEFED   xdc_runtime_Timestamp_get64__E                                            
 UNDEFED   xdc_runtime_Timestamp_getFreq__E                                          
 
-[868 symbols]
+[869 symbols]
