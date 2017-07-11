@@ -6,6 +6,7 @@
  *
  */
 
+/* Ich lösch jetzt alles !!!!!
 
 #include <XI_Sensors/sensors.h>
 #include "XI_Bios/bios.h"
