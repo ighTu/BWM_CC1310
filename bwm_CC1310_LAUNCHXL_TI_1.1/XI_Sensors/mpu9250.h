@@ -146,11 +146,13 @@
 
 // Using the MSENSR-9250 breakout board, ADO is set to 0
 // Seven-bit device address is 110100 for ADO = 0 and 110101 for ADO = 1
-#define ADO 1
+#define ADO 0
 #if ADO
 #define MPU9250_ADDRESS 0x69  // Device address when ADO = 1
+//#define MPU9250_ADDRESS 0xD1  // Device address when ADO = 1
 #else
 #define MPU9250_ADDRESS 0x68  // Device address when ADO = 0
+//#define MPU9250_ADDRESS 0x29  // Device address when ADO = 0
 #define AK8963_ADDRESS 0x0C   //  Address of magnetometer
 #endif
 
@@ -190,6 +192,7 @@ uint8_t MPU9250_init(void);
 uint8_t AK8963_init(float *destinations);
 uint8_t MPU9250_calibrate(float *dest1, float *dest2);
 void MPU9250_self_test(float *destination);
+uint8_t MPU9250_read8(uint8_t MPU9250_address, uint8_t MPU9250_reg, uint8_t MPU9250_buffer_size);
 
 
 #endif /* XI_SENSORS_MPU9250_H_ */

@@ -18,7 +18,10 @@ void sensorsTaskFxn(UArg arg0, UArg arg1)
 
 	float test;
 	int16_t dataXYZ[3];
-	uint16_t temp = 0;
+	int16_t accelCount[3];
+	uint8_t buffer = 0;
+	float SelfTest[6];
+	float gyroBias[3] = {0, 0, 0}, accelBias[3] = {0, 0, 0};      // Bias corrections for gyro and accelerometer
 
 
 	// wait for unlock from main
@@ -31,6 +34,16 @@ void sensorsTaskFxn(UArg arg0, UArg arg1)
 	TMP007_init();
 	BME280_init();
 	BH1750_init();
+
+	while(buffer == 0){
+		buffer = MPU9250_read8(MPU9250_ADDRESS, 0x75, 1);
+	}
+
+
+	//accelCount = rxMPU9250_Buffer[0];
+	MPU9250_self_test(SelfTest);
+	MPU9250_calibrate(gyroBias, accelBias);
+
 	MPU9250_init();
 	AK8963_init(&test);
 
@@ -49,8 +62,14 @@ void sensorsTaskFxn(UArg arg0, UArg arg1)
 
 		save_BH1750_Bright(&BrightSensor);
 
-		readAccelData(dataXYZ);
-		temp = readTempData();
+		buffer = MPU9250_read8(MPU9250_ADDRESS, INT_STATUS, 1);
+
+		// if (buffer & 0x01) {  // On interrupt, check if data ready interrupt
+			 readAccelData(accelCount);  // Read the x/y/z adc values
+			 getAres();
+		// }
+
+
 
 		// 1 sec. delay
 		Task_sleep(1000000 / Clock_tickPeriod);
