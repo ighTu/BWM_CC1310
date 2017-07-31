@@ -31,21 +31,25 @@ void sensorsTaskFxn(UArg arg0, UArg arg1)
 	}
 
 
-	TMP007_init();
-	BME280_init();
-	BH1750_init();
+	//TMP007_init();
+	//BME280_init();
+	//BH1750_init();
+	//MPU9250_init();
+
+
 
 	while(buffer == 0){
-		buffer = MPU9250_read8(MPU9250_ADDRESS, 0x75, 1);
+		MPU9250_read8(MPU9250_ADDRESS, 0x75, 1);
+		buffer = rxMPU9250_Buffer[0];
 	}
 
 
+	//AK8963_init(&test);
 	//accelCount = rxMPU9250_Buffer[0];
 	MPU9250_self_test(SelfTest);
 	MPU9250_calibrate(gyroBias, accelBias);
 
-	MPU9250_init();
-	AK8963_init(&test);
+
 
 	putstr("\r\nSensor Task running!\r\n");
 

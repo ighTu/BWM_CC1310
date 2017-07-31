@@ -24,28 +24,31 @@ float aRes, gRes, mRes;      // scale resolutions per LSB for the sensors
 
 uint8_t MPU9250_read8(uint8_t MPU9250_address, uint8_t MPU9250_reg, uint8_t MPU9250_buffer_size){
 
-	i2c_MPU9250_Transaction.slaveAddress = MPU9250_address;
+	i2c_MPU9250_Transaction.slaveAddress = 0x69;
 	i2c_MPU9250_Transaction.writeBuf = txMPU9250_Buffer;
 	i2c_MPU9250_Transaction.writeCount = 1;
 	i2c_MPU9250_Transaction.readBuf = rxMPU9250_Buffer;
-	i2c_MPU9250_Transaction.readCount = MPU9250_buffer_size;
+	i2c_MPU9250_Transaction.readCount = 1;
 
-	txMPU9250_Buffer[0] = MPU9250_reg;
+	txMPU9250_Buffer[0] = 0x75;
+	//__delay_us(400);
 
 	I2C_transfer(i2c, &i2c_MPU9250_Transaction);
 
-	if(MPU9250_buffer_size == 1){
+	//__delay_us(400);
+
+	/*if(MPU9250_buffer_size == 1){
 		return rxMPU9250_Buffer[0];
-	}else{
+	}else{*/
 		return 0;
-	}
+	//}
 }
 
 uint8_t MPU9250_write8(uint8_t MPU9250_address, uint8_t MPU9250_reg, uint8_t MPU9250_value){
 
 	uint8_t value = 0;
 
-	i2c_MPU9250_Transaction.slaveAddress = MPU9250_ADDRESS;
+	i2c_MPU9250_Transaction.slaveAddress = 0x68;
 	i2c_MPU9250_Transaction.writeBuf = txMPU9250_Buffer;
 	i2c_MPU9250_Transaction.writeCount = 2;
 	i2c_MPU9250_Transaction.readBuf = rxMPU9250_Buffer;
