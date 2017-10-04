@@ -1,5 +1,10 @@
 <<<<<<< HEAD
 
+# gitignore repair
+#git rm -r --cached .
+#git add .
+#git commit -m "fixed untracked files"
+
 #BWM IGNORE
 bwm_CC1310_LAUNCHXL_TI_1.1/Debug/**/*
 #bwm_CC1310_LAUNCHXL_TI_1.1/Debug/bwm_CC1310_LAUNCHXL_TI_1.1.map
